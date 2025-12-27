@@ -13,7 +13,7 @@ repeat task.wait() until localPlayer:FindFirstChild("PlayerGui")
 -- ============================
 -- LOAD KEY SYSTEM MODULE
 -- ============================
-local KeySystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/KeySystem.lua"))()
+local KeySystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/oyen-XD/Flyy/main/KeySystem.lua"))()
 
 print("🔐 FlyyGUI - Loading Key System...")
 
@@ -24,7 +24,7 @@ if KeySystem.IsActivated() then
     print("✅ License already activated! Loading GUI...")
     
     -- Load main GUI
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/FlyyGUI.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/oyen-XD/Flyy/main/FlyyGUI.lua"))()
     return
 end
 
@@ -347,7 +347,7 @@ activateBtn.MouseButton1Click:Connect(function()
         
         -- Load main GUI
         print("✅ Loading FlyyGUI...")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/FlyyGUI.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oyen-XD/Flyy/main/FlyyGUI.lua"))()
     else
         statusMsg.Text = "❌ " .. message
         statusMsg.TextColor3 = colors.danger
